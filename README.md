@@ -22,7 +22,6 @@ The Notes App is a simple web application that allows users to create, view, edi
 - **Database:** MongoDB
 - **Authentication:** JSON Web Tokens (JWT)
 - **HTTP Client:** Axios
-- **Deployment:** Heroku (Backend), Netlify (Frontend)
 - **Other Tools:** Git, GitHub
 
 ## Installation
@@ -46,7 +45,7 @@ The Notes App is a simple web application that allows users to create, view, edi
 1. Start the backend server:
    ```bash
    cd backend
-   npm start
+   npm run dev
    ```
 2. Start the frontend development server:
    ```bash
@@ -55,19 +54,4 @@ The Notes App is a simple web application that allows users to create, view, edi
    ```
 3. Access the application in your web browser at `http://localhost:3000`.
 
-## Deployment
-- The backend is deployed on Heroku, and the frontend is deployed on Netlify.
-- Continuous Deployment (CD) is set up to automatically deploy changes to production.
 
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests with your improvements.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-For any inquiries or suggestions, please contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Feel free to customize this README to fit the specifics of your notes app and your preferences.

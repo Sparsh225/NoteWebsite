@@ -45,12 +45,12 @@ The Notes App is a simple web application that allows users to create, view, edi
 1. Start the backend server:
    ```bash
    cd backend
-   npm run dev
+   npm start
    ```
 2. Start the frontend development server:
    ```bash
    cd frontend
-   npm start
+    npm run dev
    ```
 3. Access the application in your web browser at `http://localhost:3000`.
 

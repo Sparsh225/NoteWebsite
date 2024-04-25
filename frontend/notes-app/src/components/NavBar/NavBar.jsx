@@ -23,6 +23,7 @@ function NavBar({ userInfo, islogin }) {
       <h2 className="text-xl font-medium text-black py-2">Notes</h2>
 
       <SearchBar
+        className={`${window.innerWidth < 768 ? "hidden" : ""}`}
         value={searchQuery}
         onChange={({ target }) => {
           SetSearchQuery(target.value);

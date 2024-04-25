@@ -28,9 +28,11 @@ function NoteCard({
       </div>
       <p className="text-xs text-slate-600 mt-2">{content?.slice(0, 60)}</p>
 
-      <div className="flex items-center justify-between ">
-        <div className="text-sm text-slate-500">
-          {tags.map((item) => `#${item}`)}
+      <div className="flex  flex-wrap items-center justify-between ">
+        <div className="text-xs  text-slate-500 max-w-full break-all">
+          {tags.map((item) => (
+            <span className="mr-1">#{item}</span>
+          ))}
         </div>
         <div className="flex items-center gap-2">
           <MdCreate

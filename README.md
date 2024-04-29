@@ -1,8 +1,3 @@
-
-Sure! Here's an example of a README file for a notes app:
-
----
-
 # Notes App
 
 ## Description
